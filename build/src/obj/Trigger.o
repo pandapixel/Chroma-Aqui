@@ -1,0 +1,83 @@
+XL2
+H 7 areas E global symbols
+M C__Users_USER_AppData_Local_Temp_lcc66201
+O -mgbz80
+S _PopBank Ref0000
+S .__.ABS. Def0000
+S _ScriptStart Ref0000
+S _TriggerAtTile_b Ref0000
+S _PushBank Ref0000
+A _CODE size 87 flags 0 addr 0
+S _ActivateTriggerAt Def003A
+S _TriggerRunScript Def001C
+S _TriggerAtTile Def0000
+A _DATA size E8 flags 0 addr 0
+S _triggers Def0000
+S _triggers_active Def00D9
+S _triggers_len Def00E5
+S _last_trigger_tx Def00E6
+S _last_trigger_ty Def00E7
+S _triggers_active_size Def00E4
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T D9 00
+R 00 00 01 00
+T D9 00
+R 00 00 01 00
+T E4 00
+R 00 00 01 00
+T E4 00
+R 00 00 01 00
+T E5 00
+R 00 00 01 00
+T E5 00
+R 00 00 01 00
+T E6 00
+R 00 00 01 00
+T E6 00
+R 00 00 01 00
+T E7 00
+R 00 00 01 00
+T E7 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 3E 01 F5 33 CD 00 00 33 F8 03 7E F5 33 2B
+R 00 00 00 00 02 07 04 00
+T 0E 00 7E F5 33 CD 00 00 E8 02 D5 CD 00 00 D1 C9
+R 00 00 00 00 02 06 03 00 02 0C 00 00
+T 1C 00
+R 00 00 00 00
+T 1C 00 F8 02 4E 06 00 69 60 29 09 29 09 4D 44 21
+R 00 00 00 00
+T 2A 00 00 00 09 4D 44 03 03 03 03 C5 CD 00 00 E8
+R 00 00 00 00 00 02 01 00 02 0D 02 00
+T 38 00 02 C9
+R 00 00 00 00
+T 3A 00
+R 00 00 00 00
+T 3A 00 F8 04 7E B7 20 15 2B 2B 7E 21 E6 00 96 20
+R 00 00 00 00 00 0C 01 00
+T 48 00 0C F8 03 7E 21 E7 00 96 20 03 1E 00 C9
+R 00 00 00 00 00 07 01 00
+T 55 00
+R 00 00 00 00
+T 55 00 F8 03 7E F5 33 2B 7E F5 33 CD 00 00 E8 02
+R 00 00 00 00 00 0C 00 00
+T 63 00 7B 47 E5 F8 04 7E 21 E6 00 77 E1 E5 F8 05
+R 00 00 00 00 00 09 01 00
+T 71 00 7E 21 E7 00 77 E1 78 3C 28 09 C5 33 CD
+R 00 00 00 00 00 04 01 00
+T 7E 00 1C 00 33 1E 01 C9
+R 00 00 00 00 00 02 00 00
+T 84 00
+R 00 00 00 00
+T 84 00 1E 00 C9
+R 00 00 00 00
