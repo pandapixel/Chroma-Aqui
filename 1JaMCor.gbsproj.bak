@@ -175,36 +175,16 @@
                 0,
                 0,
                 0,
-                15,
-                15,
+                1,
+                1,
                 0,
+                1,
+                1,
                 15,
-                15,
-                15,
-                0,
-                0,
-                15,
-                15,
-                0,
-                0,
                 0,
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -260,6 +240,26 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
@@ -316,8 +316,8 @@
                 15,
                 15,
                 15,
-                15,
-                15,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -325,8 +325,8 @@
                 0,
                 0,
                 15,
-                15,
-                15,
+                2,
+                2,
                 0,
                 0,
                 15,
@@ -1382,6 +1382,153 @@
                     "y": 10,
                     "paletteId": "3e989bac-52af-401b-8fc1-2c75e7e5f14b",
                     "isPinned": true
+                },
+                {
+                    "name": "Dam",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6dc1aa5a-e753-4890-8f3f-30778b309c94",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "b8fadec0-3748-4e6d-bbb2-d67a89915d38",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "«Dama com Arminho»"
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            }
+                        },
+                        {
+                            "id": "54954adf-925d-4d16-b22d-816b9bdaa06a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "699b0ef3-ace6-41cd-9282-f2b843585ddd",
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6dc1aa5a-e753-4890-8f3f-30778b309c94",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "f976d8c0-d173-40d2-b9c4-818225291a1b",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "«Última Ceia»",
+                                    "...",
+                                    "Espero um dia\nchegar no nível do\nmestre."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "74c8c9a5-b771-406c-9cc6-7b1778d9cb65",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f1255b07-7f90-463d-abc9-b0095f8c5bbd",
+                    "x": 8,
+                    "y": 8
+                },
+                {
+                    "name": "Homem Vitruviano",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2616f59f-6658-486a-a7a5-fc8fce67d3c6",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "6d45b545-92c1-4a08-9c68-7890da9db57d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "«Homem Vitruviano»"
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "a082ffa1-5cd5-4419-8552-0ff1fd6c34a0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "c5b4e0f5-e1cc-4b39-8956-1c3224e6bd15",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1e6488a3-688b-4040-9fa9-23d39622d8e9",
+                    "x": 6,
+                    "y": 15
+                },
+                {
+                    "name": "Moleta",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2616f59f-6658-486a-a7a5-fc8fce67d3c6",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "4043af56-ee4e-48bf-9bb7-47c236e2bb64",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "As ferramentas\nestão aqui. Faltam\nsó os pigmentos."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "aa66b974-94b2-41d9-8d5a-1de3b35f1448",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "73a2bde7-6fa9-4df4-903b-f5b3f34e840f",
+                    "x": 15,
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -2394,299 +2541,6 @@
                     "y": 6,
                     "width": 1,
                     "height": 2
-                },
-                {
-                    "name": "Moleira",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "d920e759-1f6d-49d7-9a58-eafd9c8f9c60",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "12",
-                                "__collapseElse": false,
-                                "__disableElse": true,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "2cc4deea-2380-499b-9e54-8bce7a5bb607",
-                                        "command": "EVENT_SET_INPUT_SCRIPT",
-                                        "args": {
-                                            "input": [
-                                                "a"
-                                            ],
-                                            "persist": false,
-                                            "__scriptTabs": "press",
-                                            "__collapse": true,
-                                            "__comment": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "ec2b2875-2e9c-4c04-8179-11c3824a5e5a",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "As ferramentas\nestão aqui. Faltam\nsó os pigmentos."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "41552597-2719-4451-9d93-ce299285cb99",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "b6a866c7-5719-458a-b8e4-db19a183ecc2",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "2702ad93-1e97-425a-851a-61b35cc67e98",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "a489b473-a006-4391-874c-3b4c33173249",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "69062d13-f9d8-4d80-891b-a3a3ec902eaa",
-                    "x": 14,
-                    "y": 13,
-                    "width": 3,
-                    "height": 1
-                },
-                {
-                    "name": "Mesa",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "d6d1862d-eee2-41a4-9a15-5a62d27b9492",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "12",
-                                "__collapseElse": false,
-                                "__disableElse": true,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "73487d29-5595-4d20-98ea-78c1ab141d1a",
-                                        "command": "EVENT_SET_INPUT_SCRIPT",
-                                        "args": {
-                                            "input": [
-                                                "a"
-                                            ],
-                                            "persist": false,
-                                            "__scriptTabs": "press",
-                                            "__collapse": true,
-                                            "__comment": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "e7854ce4-43ec-4434-a383-aaa53a479dbb",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "«Homem Vitruviano»"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "e303febb-f150-44ca-bfbf-bdd6b8cd1b80",
-                                                    "command": "EVENT_STOP",
-                                                    "args": {
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "dc02774c-9132-483c-ad15-a393d5bdd712",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "265ddffc-549e-4073-a730-4f92227e9764",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "2732ceef-dfaf-4078-883f-f0ac3c26569e",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "284c1982-c5f3-467e-b157-4ae90d2610b3",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "b402c083-ef56-4395-acd3-1a82719efa46",
-                    "x": 6,
-                    "y": 13,
-                    "width": 2,
-                    "height": 1
-                },
-                {
-                    "name": "Cavalete 1",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "1bf0cb1c-1f29-4d75-81a0-11711806c70b",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "12",
-                                "__collapseElse": false,
-                                "__disableElse": true,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "0491805c-8735-44c5-a4e1-cf0e8d8478d8",
-                                        "command": "EVENT_SET_INPUT_SCRIPT",
-                                        "args": {
-                                            "input": [
-                                                "a"
-                                            ],
-                                            "persist": false,
-                                            "__scriptTabs": "press",
-                                            "__collapse": true,
-                                            "__comment": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "a973d9e0-491c-4842-b0d2-7fd27993fb25",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "«Dama com Arminho»"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "e29c3c1f-2595-4340-ad58-0a252abf7719",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "3e202950-fb0c-472b-9fec-2ccef58164df",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "70ac027d-4603-454c-b862-b07c65a885d1",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "d3a96b85-513b-4556-baf5-ea5468134e94",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "ff452d70-719a-431f-8a87-3ea455927896",
-                    "x": 5,
-                    "y": 9,
-                    "width": 2,
-                    "height": 1
-                },
-                {
-                    "name": "Cavalete 2",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "046032c1-6ed0-419f-a644-9f6ff305c55f",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "12",
-                                "__collapseElse": false,
-                                "__disableElse": true,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "a0f130c7-23ac-4679-8f6d-0c1cfb8e649b",
-                                        "command": "EVENT_SET_INPUT_SCRIPT",
-                                        "args": {
-                                            "input": [
-                                                "a"
-                                            ],
-                                            "persist": false,
-                                            "__scriptTabs": "press",
-                                            "__collapse": true,
-                                            "__comment": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "id": "384a0248-54e0-44dc-8919-9461d7efa5ac",
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "«Última Ceia»",
-                                                            "...",
-                                                            "Espero um dia\nchegar no nível do\nmestre."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    }
-                                                },
-                                                {
-                                                    "id": "a929c1e4-af17-4c4d-b82f-7f0a59f5b474",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "id": "1be119a4-aad9-4c6a-94de-551b48d09f31",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "8aa0bb58-5cdd-40c1-8081-1ee655cfa6e0",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "1af5af5f-72c2-4c9f-8cac-480261f44bb1",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "e125653d-d34e-43b5-b67f-2aa5b2ae323b",
-                    "x": 8,
-                    "y": 9,
-                    "width": 3,
-                    "height": 1
                 }
             ],
             "paletteIds": [
@@ -7442,7 +7296,7 @@
             "playerHit3Script": [],
             "id": "32ab780a-66af-4c7a-b4dd-b8dc5c8f6786",
             "x": 177.0973469093005,
-            "y": 243.70177008256536,
+            "y": 246.9017700825654,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -7624,7 +7478,7 @@
             "imageHeight": 144,
             "filename": "BG_1.png",
             "inode": "5629499534269244",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "bb2314f0-6526-4791-b9ac-3cfc5fbf9ae2",
@@ -7635,7 +7489,7 @@
             "imageHeight": 144,
             "filename": "BG_2.png",
             "inode": "9007199254797127",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "0aac7c8e-377e-4b9a-a613-03ff442bc1e0",
@@ -7646,7 +7500,7 @@
             "imageHeight": 144,
             "filename": "CoquinhaGelada.png",
             "inode": "32088147345089777",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "2819c5a5-5144-498a-b98d-176f1bf7bdce",
@@ -7657,7 +7511,7 @@
             "imageHeight": 144,
             "filename": "Creditos.png",
             "inode": "6473924464401248",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "c6c06b84-950f-4d81-9775-45e25d683542",
@@ -7668,7 +7522,7 @@
             "imageHeight": 144,
             "filename": "Monalisa_erro.png",
             "inode": "7036874418322608",
-            "_v": 1617323991993
+            "_v": 1617402926489
         },
         {
             "id": "4ec966e0-8983-4cc9-a50d-10fbfb8bcc6c",
@@ -7679,7 +7533,7 @@
             "imageHeight": 144,
             "filename": "Monalisa_ok.png",
             "inode": "9570149208919438",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "46307643-3640-494e-ba7f-78c6241f51f7",
@@ -7690,7 +7544,7 @@
             "imageHeight": 144,
             "filename": "Titulo.png",
             "inode": "5910974510979939",
-            "_v": 1617323991994
+            "_v": 1617402926489
         }
     ],
     "spriteSheets": [
@@ -7701,7 +7555,25 @@
             "type": "actor_animated",
             "filename": "Ajudante.png",
             "inode": "6473924464403584",
-            "_v": 1617323991994
+            "_v": 1617402926489
+        },
+        {
+            "id": "6dc1aa5a-e753-4890-8f3f-30778b309c94",
+            "name": "Gambs1",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Gambs1.png",
+            "inode": "4785074604621598",
+            "_v": 1617402950378
+        },
+        {
+            "id": "2616f59f-6658-486a-a7a5-fc8fce67d3c6",
+            "name": "Gambs2",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Gambs2.png",
+            "inode": "2814749767633724",
+            "_v": 1617402954482
         },
         {
             "id": "c6933e80-8ec6-4865-b91e-82b80e3b0037",
@@ -7710,7 +7582,7 @@
             "type": "static",
             "filename": "Pedra_amarelo.png",
             "inode": "14355223812302740",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "7f70de43-5518-47ab-b997-be7d4ed54a2a",
@@ -7719,7 +7591,7 @@
             "type": "static",
             "filename": "Pedra_azul.png",
             "inode": "31806672368363436",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "46d03ca2-b611-4a4e-8c05-40b1221ac3e0",
@@ -7728,7 +7600,7 @@
             "type": "static",
             "filename": "Pedra_preto.png",
             "inode": "11540474045196222",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "bf56d5ad-701c-406b-a751-e79562fb8d3d",
@@ -7737,7 +7609,7 @@
             "type": "static",
             "filename": "Pedra_verde.png",
             "inode": "9570149208221777",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "ca7b8a53-cac9-460c-bbef-d7a1e659438b",
@@ -7746,7 +7618,7 @@
             "type": "static",
             "filename": "Pedra_vermelho.png",
             "inode": "20266198323226782",
-            "_v": 1617323991994
+            "_v": 1617402926489
         },
         {
             "id": "83b75019-7f30-4fbc-9c48-8171ce736f0b",
@@ -7755,7 +7627,7 @@
             "type": "actor_animated",
             "filename": "Pintor.png",
             "inode": "6473924464404669",
-            "_v": 1617323991994
+            "_v": 1617402926489
         }
     ],
     "palettes": [
@@ -8054,7 +7926,7 @@
             "filename": "ChromaAqui - Gameplay.mod",
             "settings": {},
             "inode": "5910974510979943",
-            "_v": 1617323991974
+            "_v": 1617402926489
         },
         {
             "id": "44cbe460-351b-4028-bffd-0ce8032db00d",
@@ -8062,7 +7934,7 @@
             "filename": "ChromaAqui - Resultado.mod",
             "settings": {},
             "inode": "5066549580848137",
-            "_v": 1617323991974
+            "_v": 1617402926489
         },
         {
             "id": "c2ec518e-f519-4409-ab24-fb9f01a2bbfb",
@@ -8070,7 +7942,7 @@
             "filename": "ChromaAqui - Tela Título.mod",
             "settings": {},
             "inode": "3377699721389870",
-            "_v": 1617323991974
+            "_v": 1617402926489
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -8078,7 +7950,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "6192449487690762",
-            "_v": 1617323991974
+            "_v": 1617402926489
         }
     ],
     "variables": [
@@ -8173,9 +8045,9 @@
         "startY": 0,
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 57,
-        "worldScrollY": 0,
-        "zoom": 125,
+        "worldScrollX": 1368,
+        "worldScrollY": 382,
+        "zoom": 425,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
