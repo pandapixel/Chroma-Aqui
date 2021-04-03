@@ -7544,7 +7544,7 @@
             "imageHeight": 144,
             "filename": "Titulo.png",
             "inode": "5910974510979939",
-            "_v": 1617402926489
+            "_v": 1617409208689
         }
     ],
     "spriteSheets": [
@@ -7851,9 +7851,9 @@
             "id": "a0e718fe-33cd-4711-a3f9-cfa66e86b203",
             "name": "Titulo",
             "colors": [
-                "C8F8D0",
-                "48A0E0",
-                "68B090",
+                "A8E0C8",
+                "58B0F0",
+                "388090",
                 "000000"
             ]
         },
@@ -8045,9 +8045,9 @@
         "startY": 0,
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 238,
-        "worldScrollY": 49,
-        "zoom": 175,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",

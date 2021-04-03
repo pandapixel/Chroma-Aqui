@@ -5669,7 +5669,7 @@
                                 "operator": "==",
                                 "vectorY": "1",
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "Compara a cor com o sorteio"
                             },
                             "children": {
@@ -8045,9 +8045,9 @@
         "startY": 0,
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 1368,
-        "worldScrollY": 382,
-        "zoom": 425,
+        "worldScrollX": 238,
+        "worldScrollY": 49,
+        "zoom": 175,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
